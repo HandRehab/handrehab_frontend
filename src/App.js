@@ -1,18 +1,24 @@
 import React from 'react';
 import "./index.css";
 import './App.css';
-import Login from './components/Login';
+import Login from './routes/Login';
 import Home from './routes/Home';
 import {Route,Routes} from "react-router-dom"
-import SignUp from './components/SignUp';
+/*
+import BackButton from './components/back_button';
+*/
 function App() {
   return (
     <>
+    
+     
     <Routes>
+    {/* Login Route <BackButton></BackButton>  */}
     <Route path="/" element={<Home/>}/>
-    <Route path="/SignUp" element={<SignUp/>}/>
     <Route path="/Login" element={<Login/>}/>
-      
+    
+    
+    
     </Routes>
     </>
     
