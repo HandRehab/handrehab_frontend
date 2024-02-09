@@ -1,27 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
+* {
   margin: 0;
   padding: 0;
-  /* user-select: none; */
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-html,body{
+html, body {
   height: 100%;
+  
+  background-size: cover;
+  background-position: center;
 }
 body{
-  display: grid;
+  display:grid;
   place-items: center;
   background: #dde1e7;
   text-align: center;
+  background-image: url("/public/images/login.jpg");
+  
+  
 }
-.content{
+.content {
   width: 330px;
   padding: 40px 30px;
-  background: #dde1e7;
   border-radius: 10px;
-  box-shadow: -3px -3px 7px #ffffff73,
-               2px 2px 5px rgba(94,104,121,0.288);
+  background: linear-gradient(to left, #77a0de, #ffffff); /* Gradient background */
+  box-shadow: 2px 2px 5px #132773, -5px -5px 10px #b8a4a473;
 }
 .content .text{
   font-size: 33px;
