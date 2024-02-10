@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './LoginStyles.css';
 
-import './LoginStyles.css'
 const LoginPage = () => {
   return (
-    <div class="content">
-         <div class="text">
-            Login Form
-         </div>
+    <div className="login-bg"> {/* Apply the specific class to the body element */}
+      <div className="content">
+        <div className="text">
+          Login Form
+        </div>
          <form action="#">
             <div class="field">
                <input type="text" required/>
@@ -28,6 +29,8 @@ const LoginPage = () => {
             </div>
          </form>
       </div>
+      </div>
+    
   )
 }
 
