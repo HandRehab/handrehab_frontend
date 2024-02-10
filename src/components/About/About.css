@@ -1,0 +1,88 @@
+.Aboutbody {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: black;
+    overflow-y: auto;
+    background: white
+  }
+  
+  @media (max-width: 480px) {
+    .w {
+      padding-left: 40vh;
+    }
+  }
+  
+  .tit {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 100px; /* Increase the margin to create more space */
+    margin-top: 20px;
+    color: rgb(5, 4, 4);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 60px;
+  }
+  
+  .title.anim {
+    animation-delay: 0.75s;
+  }
+  
+  .description {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .description {
+    margin-top: 7vh;
+    font-family: 'Comfortaa', serif;
+    font-size: larger;
+    font-weight: 800;
+    line-height: 2; /* Adjust line-height for proper spacing */
+    color: #1f1919;
+    text-align: justify;
+  }
+  
+  .description.anim {
+    animation-delay: 1.25s;
+  }
+  
+  .anim {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: moveup 1s linear forwards;
+  }
+  
+  @keyframes moveup {
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .wi {
+    color: #050504;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  
+  .sub {
+    max-width: 1389px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .w {
+    text-align: center;
+    color: #10100f;
+  }
+  
