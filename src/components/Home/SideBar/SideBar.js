@@ -17,23 +17,23 @@ function SideBar() {
           </div>
   
           <div className="d2">
-            <Link to="" className="details">
+            <Link to="/Assesment" className="details">
               Assessment
             </Link>
           </div>
           <div className="d3">
-            <Link to="" className="details">
+            <Link to="/Rehabilitaion" className="details">
               Rehabilitation
             </Link>
           </div>
           <div className="d4">
-            <Link to="" className="details">
+            <Link to="Score Analysis" className="details">
               Score analysis
             </Link>
 
           </div>
           <div className="d5">
-            <Link to="" className="details">
+            <Link to="Feedback" className="details">
               Feedback
             </Link>
 
