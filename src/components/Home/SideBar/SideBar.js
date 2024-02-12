@@ -1,55 +1,76 @@
-import React from "react";
-import { Link } from 'react-router-dom';
-import './SideBar.css'
+import React from 'react';
+import 'boxicons'
+import './SideBar.css'; // Make sure to import the CSS file
 
+const SideBar = () => {
+  return (
+    <div className="sidebar close">
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
+      <ul className="nav-links">
+        <li>
+          <div className="iocn-link">
+            <a href="#"><i class='bx bx-user-pin'></i></a>
+          </div>
+          <ul className="sub-menu">
+            <li><a className="link_name" href="#">Profile</a></li>
+            
+          </ul>
+        </li>
 
-function SideBar() {
-    const logout = () => {
-      sessionStorage.clear()
-    }
-    return (
-      <div>
-        <div className="sidebar">
-          <div className="d1">
-            <Link to="/myprofile" className="details">
-              My Profile
-            </Link>
+        <li>
+          <div className="iocn-link">
+            <a href="#">
+            <i class='bx bx-edit-alt'></i>
+              <span className="link_name">Assessment</span>
+            </a>
           </div>
-  
-          <div className="d2">
-            <Link to="/Assesment" className="details">
-              Assessment
-            </Link>
-          </div>
-          <div className="d3">
-            <Link to="/Rehabilitaion" className="details">
-              Rehabilitation
-            </Link>
-          </div>
-          <div className="d4">
-            <Link to="Score Analysis" className="details">
-              Score analysis
-            </Link>
+          <ul className="sub-menu">
+            <li><a className="link_name" href="#">Assessment</a></li>
+            
+          </ul>
+        </li>
 
-          </div>
-          <div className="d5">
-            <Link to="Feedback" className="details">
-              Feedback
-            </Link>
+        <li>
+          <a href="#">
+          <i class='bx bx-run'></i>
+            <span className="link_name">Rehabilitation</span>
+          </a>
+          <ul className="sub-menu blank">
+            <li><a className="link_name" href="#">Rehabilitation</a></li>
+          </ul>
+        </li>
 
-          </div>
+        <li>
+          <a href="#">
+            <i className='bx bx-pie-chart-alt-2'></i>
+            <span className="link_name">Analytics</span>
+          </a>
+          <ul className="sub-menu blank">
+            <li><a className="link_name" href="#">Analytics</a></li>
+          </ul>
+        </li>
+
         
-          <div>
-            <button className="but">
-              <Link to="/Login" id="but" onClick={logout}>
-                Log Out
-              </Link>
-            </button>
+
+        <li>
+          <div className="iocn-link">
+            <a href="#">
+            <i class='bx bxs-comment-detail'></i>
+              <span className="link_name">Feedback</span>
+            </a>
           </div>
-          
-        </div>
-      </div>
-    );
-  }
-  
-  export default SideBar
+          <ul className="sub-menu">
+            <li><a className="link_name" href="#">Feedback</a></li>
+            
+          </ul>
+        </li>
+
+        
+
+        
+      </ul>
+    </div>
+  );
+};
+
+export default SideBar;
