@@ -19,6 +19,8 @@
 }
 .sidebar.close{
   
+  position: fixed;
+  height: 550px;
   width: 64px;
 }
 .sidebar .nav-links{

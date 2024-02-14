@@ -19,7 +19,7 @@ const SideBar = () => {
 
         <li>
           <div className="iocn-link">
-            <a href="#">
+            <a href="/Assessment">
             <i class='bx bx-edit-alt'></i>
               <span className="link_name">Assessment</span>
             </a>
