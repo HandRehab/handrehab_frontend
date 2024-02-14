@@ -20,16 +20,18 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 1.2rem 2rem;
     
+    
 }
 .project-card:hover{
     background: #96ABF6;
+    
 }
 .project-card img{
     width:100%;
 
 }
 .project-title{
-    color: #fff;
+    color: #323030;
     padding: 1rem 0;
 }
 .pro-details{
