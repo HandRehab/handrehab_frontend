@@ -25,18 +25,18 @@ const SideBar = () => {
             </a>
           </div>
           <ul className="sub-menu">
-            <li><a className="link_name" href="#">Assessment</a></li>
+            <li><a className="link_name" href="/Assessment">Assessment</a></li>
             
           </ul>
         </li>
 
         <li>
-          <a href="#">
+          <a href="/Rehabilitation">
           <i class='bx bx-run'></i>
             <span className="link_name">Rehabilitation</span>
           </a>
           <ul className="sub-menu blank">
-            <li><a className="link_name" href="#">Rehabilitation</a></li>
+            <li><a className="link_name" href="/Rehabilitation">Rehabilitation</a></li>
           </ul>
         </li>
 

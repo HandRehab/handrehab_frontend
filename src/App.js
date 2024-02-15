@@ -8,6 +8,8 @@ import About from './components/About/About';
 import Navbar from './components/NavBar/NavBar';
 import Contact from './components/Contact/Contact';
 import Assessment from './routes/Assessment';
+import Rehabilitation from './routes/Rehabilitation'
+
 /*
 import BackButton from './components/back_button';
 */
@@ -23,7 +25,7 @@ function App() {
     <Route path="/About" element={<About/>}/>
     <Route path="/Contact" element={<Contact/>}/>
     <Route path="/Assessment" element={<Assessment/>}/>
-    
+    <Route path="/Rehabilitation" element={<Rehabilitation/>}/>
     </Routes>
     </>
     
