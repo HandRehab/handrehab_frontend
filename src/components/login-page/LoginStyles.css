@@ -10,8 +10,33 @@
 html, body {
   height: 100%;
 }
+body{
+  background-color: #e6e9ed;
+}
+.head{
+  font-size: x-large;
+  font-weight: 700;
+  color: #dde1e7;
+  
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  background-color: #96ABF6;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
 
 
+.login{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 90px;
+ 
+  
+}
 .login-bg {
   display: grid;
   place-items: center;
@@ -26,8 +51,9 @@ html, body {
 .content {
   width: 330px;
   padding: 40px 30px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   border-radius: 10px;
-  background: linear-gradient(to left, #77a0de, #ffffff); /* Gradient background */
+  background-color: #e6e9ed;
 }
 
 .content .text {
