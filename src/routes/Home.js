@@ -1,16 +1,33 @@
 import React from 'react'
-import Navbar from '../components/NavBar/NavBar'
-import SideBar from '../components/Home/SideBar/SideBar'
+import { useState, useEffect } from "react";
 
-const Home = () => {
+
+import SideBar from '../components/Home/SideBar/SideBar';
+import Navbar from '../components/NavBar/NavBar';
+import PreLoader from '../components/PreLoader/PreLoader';
+
+
+function Home() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1500);
+  }, []);
+
   return (
     <div>
-        <Navbar/>
-        <SideBar/>
-        
+      {loading ?
+      (<PreLoader />) 
+      :
+      (<>
+          
+          <Navbar/>
+          <SideBar/>
+        </>
+      )}
     </div>
-    
-  )
+  );
 }
 
 export default Home
