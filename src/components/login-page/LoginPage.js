@@ -14,7 +14,7 @@ const LoginPage = () => {
 
     if (isLoginSuccessful) {
       // Navigate to the PatientHome component
-      navigate('/PatientHome');
+      navigate('/Home');
     }
   };
 
