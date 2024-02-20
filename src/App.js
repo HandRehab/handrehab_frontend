@@ -9,6 +9,8 @@ import Navbar from './components/NavBar/NavBar';
 import Contact from './components/Contact/Contact';
 import Assessment from './routes/Assessment';
 import Rehabilitation from './routes/Rehabilitation'
+import AdminLoginPage from './components/Admin/AdminLoginPage/AdminLoginPage';
+import Userform from './components/Admin/NewUserform/Userform';
 
 /*
 import BackButton from './components/back_button';
@@ -21,12 +23,13 @@ function App() {
     <Routes>
     {/* Login Route <BackButton></BackButton>  */}
     <Route path="/Login" element={<Login/>}/>
-    <Route path="/Home" element={<Home/>}/>
+    <Route path="/" element={<Home/>}/>
     
     <Route path="/About" element={<About/>}/>
     <Route path="/Contact" element={<Contact/>}/>
     <Route path="/Assessment" element={<Assessment/>}/>
     <Route path="/Rehabilitation" element={<Rehabilitation/>}/>
+    <Route path="/Userform" element={<Userform/>}/>
     </Routes>
     </>
     

@@ -20,7 +20,7 @@ const SideBar = () => {
         </li>
         <li>
           <div className="iocn-link">
-            <a href="#"><i class='bx bx-user-plus'></i></a>
+            <a href="/Userform"><i class='bx bx-user-plus'></i></a>
           </div>
           <ul className="sub-menu">
             <li><a className="link_name" href="#">Add User</a></li>
@@ -29,11 +29,11 @@ const SideBar = () => {
 
         <li>
           <a href="/GiveFeedback">
-            <i class='bx bx-message'></i>
+            <i class='bx bx-chart'></i>
             <span className="link_name">Give Feedback</span>
           </a>
           <ul className="sub-menu blank">
-            <li><a className="link_name" href="/GiveFeedback">Give Feedback</a></li>
+            <li><a className="link_name" href="/GiveFeedback">Patient Analysis</a></li>
           </ul>
         </li>
 
