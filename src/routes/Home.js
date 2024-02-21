@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import SideBar from '../components/Home/SideBar/SideBar';
 import Navbar from '../components/NavBar/NavBar';
 import PreLoader from '../components/PreLoader/PreLoader';
+import MyProfile from '../components/Home/MyProfile/MyProfile';
 
 
 function Home() {
@@ -24,6 +25,7 @@ function Home() {
           
           <Navbar/>
           <SideBar/>
+          <MyProfile/>
         </>
       )}
     </div>

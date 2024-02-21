@@ -11,6 +11,7 @@ import Assessment from './routes/Assessment';
 import Rehabilitation from './routes/Rehabilitation'
 import AdminLoginPage from './components/Admin/AdminLoginPage/AdminLoginPage';
 import Userform from './components/Admin/NewUserform/Userform';
+import MyProfile from './components/Home/MyProfile/MyProfile';
 
 /*
 import BackButton from './components/back_button';
@@ -24,12 +25,13 @@ function App() {
     {/* Login Route <BackButton></BackButton>  */}
     <Route path="/Login" element={<Login/>}/>
     <Route path="/" element={<Home/>}/>
-    
+    <Route path="/Home" element={<Home/>}/>
     <Route path="/About" element={<About/>}/>
     <Route path="/Contact" element={<Contact/>}/>
     <Route path="/Assessment" element={<Assessment/>}/>
     <Route path="/Rehabilitation" element={<Rehabilitation/>}/>
     <Route path="/Userform" element={<Userform/>}/>
+    <Route path="/MyProfile" element={<MyProfile/>}/>
     </Routes>
     </>
     
