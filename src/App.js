@@ -20,7 +20,7 @@ function App() {
      
     <Routes>
     {/* Login Route <BackButton></BackButton>  */}
-    <Route path="/Login" element={<Login/>}/>
+    <Route path="/" element={<Login/>}/>
     <Route path="/Home" element={<Home/>}/>
     
     <Route path="/About" element={<About/>}/>
