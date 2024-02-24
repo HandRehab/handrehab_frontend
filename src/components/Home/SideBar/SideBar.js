@@ -9,10 +9,10 @@ const SideBar = () => {
       <ul className="nav-links">
         <li>
           <div className="iocn-link">
-            <a href="#"><i class='bx bx-user-pin'></i></a>
+            <a href="/Home"><i class='bx bx-user-pin'></i></a>
           </div>
           <ul className="sub-menu">
-            <li><a className="link_name" href="#">Profile</a></li>
+            <li><a className="link_name" href="/Home">Profile</a></li>
             
           </ul>
         </li>

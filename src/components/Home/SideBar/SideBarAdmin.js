@@ -9,31 +9,31 @@ const SideBar = () => {
       <ul className="nav-links">
         <li>
           <div className="iocn-link">
-            <a href="/ViewPatientProfile">
+            <a href="/AdminLoginPage">
             <i class='bx bx-user-pin'></i>
               <span className="link_name">View Patient Profile</span>
             </a>
           </div>
           <ul className="sub-menu">
-            <li><a className="link_name" href="/ViewPatientProfile">View Patient Profile</a></li>
+            <li><a className="link_name" href="/AdminLoginPage">View Patient Profile</a></li>
           </ul>
         </li>
         <li>
           <div className="iocn-link">
-            <a href="#"><i class='bx bx-user-plus'></i></a>
+            <a href="/Userform"><i class='bx bx-user-plus'></i></a>
           </div>
           <ul className="sub-menu">
-            <li><a className="link_name" href="#">Add User</a></li>
+            <li><a className="link_name" href="/Userform">Add User</a></li>
           </ul>
         </li>
 
         <li>
           <a href="/GiveFeedback">
-            <i class='bx bx-message'></i>
+            <i class='bx bx-chart'></i>
             <span className="link_name">Give Feedback</span>
           </a>
           <ul className="sub-menu blank">
-            <li><a className="link_name" href="/GiveFeedback">Give Feedback</a></li>
+            <li><a className="link_name" href="/GiveFeedback">Patient Analysis</a></li>
           </ul>
         </li>
 

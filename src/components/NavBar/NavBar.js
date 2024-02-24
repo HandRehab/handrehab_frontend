@@ -21,7 +21,11 @@ const Navbar = () => {
     return(
         <div className={color?"header header-bg":"header"}>
       <Link to="/Home">
+<<<<<<< HEAD
         <h1 className="head">HandRehab</h1>
+=======
+        <h1>HandRehab</h1>
+>>>>>>> d1869c6533a70d181c4c11bed09a17b013abb38b
       </Link>
         <ul className={click? "nav-menu active":"nav-menu"}>
           <li>
@@ -36,11 +40,18 @@ const Navbar = () => {
           
           
           
+<<<<<<< HEAD
         </ul>       
          <div className="hamburger" onClick={handleClick}>
           {click ?(<FaTimes size={20} style={{ color: "#fff" }} />)
             :(<FaBars size={20} style={{ color: "#fff" }} />)}
             
+=======
+        </ul>        
+        <div className="hamburger" onClick={handleClick}>
+          {click ?(<FaTimes size={20} style={{ color: "#000" }} />)
+            :(<FaBars size={20} style={{ color: "#000" }} />)}
+>>>>>>> d1869c6533a70d181c4c11bed09a17b013abb38b
           
           
         </div>
